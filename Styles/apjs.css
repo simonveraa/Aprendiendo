@@ -1,0 +1,62 @@
+html {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+}
+
+.code {
+    color: greenyellow;
+    background-color: rgb(110, 110, 110);
+    border-radius: 5px;
+}
+
+
+h1 {
+    text-align: center;
+    background-color: rgb(245, 235, 108);
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+
+}
+
+table {
+    background-color: white;
+    box-shadow: 0 0.1rem 0.3rem rgba(0,0,0,0.3);
+    border-radius: 5px;
+    padding: 30px;
+    display: flex; 
+    justify-content: center;  
+    margin: 0 auto;
+    
+
+}
+
+th, td {
+    padding: 2px;
+    text-align: left;
+    
+    /* git add .
+    git commit -m "s"
+    git push */
+
+}
+
+tr:hover {
+    background-color: lightblue;
+}
+
+body {
+    background-color: rgb(244, 244, 244);
+}
+
+  .esconder {
+    display: none;
+}
+.no-esconder {
+    cursor: pointer;
+}
