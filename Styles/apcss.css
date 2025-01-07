@@ -15,13 +15,15 @@ h1 {
 .links {
     display: flex;
     justify-content: space-around;
-    width: 500px;
+    width: 800px;
     margin:  0 auto;
+    margin-top: 20px;
    
 }
 
 h2 {
     text-align: center;
+    padding-top: 20px;
 }
 
 table {
