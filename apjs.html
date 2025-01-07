@@ -106,15 +106,17 @@
                 </code>
             </td>  
         </tr>
-        <tr>
-            <td></td>
-            <td>56:12</td>
-            <td><a href="https://youtu.be/wZniZEbPAzk?si=PFUB_EOERj2aDnm0&t=3372" target="_blank" >link</a></td>
+        <tr class="no-esconder">
+            <td>Constantes</td>
+            <td>45:52</td>
+            <td><a href="https://youtu.be/QoC4RxNIs5M?si=mh1TntS93tHVcT1c&t=2753" target="_blank" >link</a></td>
         </tr>
-        <tr>
-            <td></td>
-            <td>1:04:56</td>
-            <td><a href="https://youtu.be/wZniZEbPAzk?si=HyizeziS3JnIpvMq&t=3896" target="_blank" >link</a></td>
+        <tr class="esconde">
+            <td>
+                <code>
+                    asdasdas
+                </code>
+            </td>
         </tr>
         <tr>
             <td></td>
@@ -177,17 +179,6 @@
             <td><a href="https://youtu.be/wZniZEbPAzk?si=jpWvRjZibeCjH0m5&t=6457" target="_blank" >link</a></td>
         </tr>
     </table>
-    <Script>
-        document.querySelectorAll('.no-esconder').forEach(no => {
-        no.addEventListener('click', () => {
-            const contenidoOculto = no.nextElementSibling;
-            if (contenidoOculto.style.display === 'none' || contenidoOculto.style.display === '') {
-                contenidoOculto.style.display = 'table-row';
-            } else {
-                contenidoOculto.style.display = 'none';
-            }
-        });
-    });
-</Script>
+    <Script src="apjs.js"></Script>
 </body>
 </html>
