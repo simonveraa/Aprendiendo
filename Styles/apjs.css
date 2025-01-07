@@ -53,15 +53,11 @@ table {
 th, td {
     padding: 2px;
     text-align: left;
-    
-    /* git add .
-    git commit -m "s"
-    git push */
 
 }
 
 tr:hover {
-    background-color: lightblue;
+    background-color: lightyellow;
 }
 
 body {
