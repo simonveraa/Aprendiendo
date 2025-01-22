@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <h1>
@@ -107,10 +108,45 @@
             <td>1:15:15</td>
             <td><a href="https://youtu.be/wZniZEbPAzk?si=D-dv96Oxa-SoCbDj&t=4515" target="_blank" >link</a></td>
         </tr>
-        <tr>
+        <tr class="no-esconder">
             <td>Tablas: colocar varios elementos </td>
             <td>1:19:00</td>
             <td><a href="https://youtu.be/wZniZEbPAzk?si=jl35hb8-UMq01bJS&t=4740" target="_blank" >link</a></td>
+        </tr>
+        <tr class="esconder">
+            <td>
+                <code >
+                    <div class="code">
+                        <br>
+                        &lt;tr&gt; Fila, debe ser usado con &lt;td&gt; o &lt;th&gt;<br>
+                        &lt;th&gt; Encabezado, <b>Letra en negrita</b><br>
+                        &lt;td&gt; Columnas<br><br><hr>
+                        
+                            &lt;tr&gt; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//<i>Fila 1 + &lt;th&gt;: se genera la celda</i><br>
+                            
+                                &nbsp;&nbsp;&nbsp;&lt;th&gt; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>header en Columna 1</i><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nombre<br>
+                                &nbsp;&nbsp;&nbsp;&lt;/th&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&lt;th&gt; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// <i>Table Header 2 en Columna 2</i><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Apellido<br>
+                                &nbsp;&nbsp;&nbsp;&lt;/th&gt;<br>
+                            
+                            &lt;/tr&gt;<br>
+                            &lt;tr&gt; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//<i>Fila 2 + &lt;td&gt; se genera una celda</i><br>
+                            
+                                &nbsp;&nbsp;&nbsp;&lt;td&gt; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>nueva, abajo de &lt;th&gt;</i><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pedro &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>en Columna 1</i><br>
+                                &nbsp;&nbsp;&nbsp;&lt;/td&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&lt;td&gt; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// <i>Celda 2 en Columna 2</i><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Toro<br>
+                                &nbsp;&nbsp;&nbsp;&lt;/td&gt;<br>
+                            
+                            &lt;/tr&gt;<br>
+            
+                        
+                    </div>
+                </code>
+            </td>  
         </tr>
         <tr>
             <td>Tablas: Cambiar de color</td>
@@ -148,5 +184,6 @@
             <td><a href="https://youtu.be/wZniZEbPAzk?si=jpWvRjZibeCjH0m5&t=6457" target="_blank" >link</a></td>
         </tr>
     </table>
+    <Script src="apjs.js"></Script>
 </body>
 </html>

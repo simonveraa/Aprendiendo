@@ -56,3 +56,20 @@ html {
 body {
     background-color: rgb(244, 244, 244);
 }
+
+.esconder {
+    display: none;
+}
+.no-esconder {
+    cursor: pointer;
+}
+
+.code {
+    color: greenyellow;
+    background-color: rgb(110, 110, 110);
+    border-radius: 5px;
+}
+
+.tab {
+    text-indent: 2em;
+}
