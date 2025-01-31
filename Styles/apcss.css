@@ -68,6 +68,7 @@ body {
     color: greenyellow;
     background-color: rgb(110, 110, 110);
     border-radius: 5px;
+    padding-bottom: 10px;
 }
 
 .tab {
